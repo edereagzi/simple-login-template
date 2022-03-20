@@ -50,7 +50,7 @@ export default function RegisterScreen({navigation}) {
       <TextInput
         label="Kullanıcı Adı"
         returnKeyType="next"
-        value={name.value}
+        value={username.value}
         onChangeText={text => setUsername({value: text, error: ''})}
         error={!!username.error}
         errorText={username.error}
